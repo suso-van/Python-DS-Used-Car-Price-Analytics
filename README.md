@@ -34,7 +34,7 @@ An optimized, end-to-end data engineering and business intelligence pipeline tha
                                    ┌──────────────────────────┐
                                    │  Tableau BI Dashboard    │
                                    │  - Value Decay Curves    │
-                                   │  - Cross-Filter Matrix   │
+                                   │  - Market Volume   │
                                    └──────────────────────────┘
                                     
 ```
