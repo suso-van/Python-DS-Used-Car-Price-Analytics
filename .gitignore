@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Local config
+.env
+.env.*
+
+# Data files: keep samples only
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/sample_*.csv
+!data/processed/sample_*.csv
+
+# BI local/cache-heavy files
+*.pbix
+*.pbit
+*.twbx
+*.hyper
+*.tde
+bi_dashboards/**/~$*
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and exports
+*.log
+exports/
